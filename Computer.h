@@ -15,6 +15,6 @@ struct Computer {
 		cout << "Frequency: " << frequency <<" GHz" << endl;
 		cout << "RAM: " << RAM << " Gb" << endl;
 		cout << "DVDROM: " << (DVDROM ? "yes" : "no") << endl;
-		cout << "Price: " << price << " UAH" << endl;
+		cout << "Price: " << price << " UAH" << endl << endl;
 	}
 };

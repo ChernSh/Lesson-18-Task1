@@ -12,5 +12,15 @@ int main()
         {"Samsung Pro Max", 3.2, 16, true, 20500},
         {"acer navy", 1.4, 4, false, 5500}
     };
+
+    int amount = 0;
+    for (int i = 0; i < N; i++)
+    {
+        if (arr[i].RAM >= 10)
+        {
+            amount++;
+            arr[i].showComputer();
+        }
+    }
 }
 
